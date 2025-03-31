@@ -1,0 +1,3 @@
+PyQT6
+sqlite3
+pyinstaller
