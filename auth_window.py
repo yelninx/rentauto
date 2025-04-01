@@ -13,7 +13,7 @@ class AuthWindow(QWidget):
         self.ui = Ui_Form()
         self.ui.setupUi(self)
         self.ui.login_button.clicked.connect(self.login)
-        self.ui.register_button.clicked.connect(self.login)
+        self.ui.register_button.clicked.connect(self.register)
 
     def keyPressEvent(self, event):
         if event.key() in (Qt.Key.Key_Enter, Qt.Key.Key_Return):
